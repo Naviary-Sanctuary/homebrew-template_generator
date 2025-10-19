@@ -12,6 +12,6 @@ class Tg < Formula
   end
 
   test do
-    system "#{bin}/tg", "--version"
+    system "bin/tg", "--version"
   end
 end
